@@ -1,0 +1,95 @@
+[dotenv@17.2.2] injecting env (9) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+🚀 Real NFT Agent API Server running on port 3001
+📡 Health check: http://localhost:3001/health
+💬 Chat endpoint: http://localhost:3001/api/chat
+🔧 Using REAL NFT Agent functionality via bun
+✅ Database initialized successfully
+🤖 Received query: what is my balance
+📤 NFT Agent result: {
+  type: 'chat',
+  message: '💰 Your wallet balance: 0.0 AVAX',
+  success: true
+}
+🤖 Received query: notify me when cool cats falls below 0.2 ETH
+Insert successful, lastID: 20
+📤 NFT Agent result: {
+  type: 'chat',
+  message: 'Creating a price alert for Cool Cats. You will be notified when the floor price drops below 0.2 ETH.\n' +
+    '💰 Cool Cats: 0.3687 ETH ($1715.72 USD)\n' +
+    "🚨 ✅ Price alert created successfully! I'll notify you when Cool Cats below 0.2 ETH",
+  success: true
+}
+🤖 Received query: What is my wallet balance?
+📤 NFT Agent result: {
+  type: 'chat',
+  message: '💰 Your wallet balance: 0.0 AVAX',
+  success: true
+}
+🤖 Received query: What is my wallet address?
+📤 NFT Agent result: {
+  type: 'chat',
+  message: '📍 Your wallet address: 0xFA12aa511e81BFb01BDc8Fd6ec802aA3a4B36cF3',
+  success: true
+}
+🤖 Received query: Show me my NFTs
+📤 NFT Agent result: {
+  type: 'chat',
+  message: 'Price alert processed successfully!',
+  success: true
+}
+🤖 Received query: Get floor price for an NFT collection
+📤 NFT Agent result: {
+  type: 'chat',
+  message: 'Which NFT collection are you interested in?',
+  success: true
+}
+🤖 Received query: what is the floor price of cool cats 
+📤 NFT Agent result: {
+  type: 'chat',
+  message: '💰 Cool Cats: 0.3687 ETH ($1716.90 USD)',
+  success: true
+}
+🤖 Received query: notify me when cool cats price is below 0.32 WETH
+Insert successful, lastID: 21
+📤 NFT Agent result: {
+  type: 'chat',
+  message: 'Creating a price alert for Cool Cats. You will be notified when the floor price drops below 0.32 WETH.\n' +
+    "🚨 ✅ Price alert created successfully! I'll notify you when Cool Cats below 0.32 ETH",
+  success: true
+}
+🤖 Received query: Show me my NFTs
+📤 NFT Agent result: {
+  type: 'chat',
+  message: 'Price alert processed successfully!',
+  success: true
+}
+🤖 Received query: Get floor price for an NFT collection
+📤 NFT Agent result: {
+  type: 'chat',
+  message: 'Which NFT collection are you interested in?',
+  success: true
+}
+🤖 Received query: cool cats
+📤 NFT Agent result: {
+  type: 'chat',
+  message: 'Do you want the floor price, collection stats, or something else about Cool Cats?',
+  success: true
+}
+🤖 Received query: cool cats floor price
+📤 NFT Agent result: {
+  type: 'chat',
+  message: '💰 Cool Cats: 0.3687 ETH ($1717.48 USD)',
+  success: true
+}
+🤖 Received query: notify me when cool cats price is below 0.37 ETH
+📤 NFT Agent result: {
+  type: 'chat',
+  message: '💰 Cool Cats: 0.3687 ETH ($1718.19 USD)',
+  success: true
+}
+🗑️ Alert 21 deleted from database
+Insert successful, lastID: 22
+Insert successful, lastID: 23
+Insert successful, lastID: 24
+Insert successful, lastID: 25
+Insert successful, lastID: 26
